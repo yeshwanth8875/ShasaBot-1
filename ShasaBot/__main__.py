@@ -74,36 +74,36 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`𝕳𝖊𝖑𝖑𝖔` {} [🥰](https://telegra.ph/file/c4b69de63b6525efad6dd.jpg) `𝕸𝖞 𝕹𝖆𝖒𝖊 𝕴𝖘` *Shasa*
+`𝕳𝖊𝖑𝖑𝖔` {} [🥰](https://telegra.ph/file/98dfca36f39b40013476e.jpg) `𝕸𝖞 𝕹𝖆𝖒𝖊 𝕴𝖘` *𝐋𝐈𝐙𝐙𝐀*
 `𝕴'𝖒 𝕳𝖊𝖗𝖊 𝖙𝖔 𝖍𝖊𝖑𝖕 𝖞𝖔𝖚 𝖎𝖓 𝖒𝖆𝖓𝖆𝖌𝖊 𝖞𝖔𝖚𝖗 𝖌𝖗𝖔𝖚𝖕𝖘! 𝕳𝖎𝖙` *📚Commands* 𝖔𝖗 /help  
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🌹 𝙰𝙳𝙳 𝚂𝙷𝙰𝚂𝙰 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🌹", url="t.me/MissShasa_bot?startgroup=true"),
+            text="🌹 𝐀𝐃𝐃 𝐋𝐈𝐙𝐙𝐀 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏🌹", url="t.me/MissShasa_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="💞𝕬𝖇𝖔𝖚𝖙💞", callback_data="shasa_"),
+        InlineKeyboardButton(text="💞𝐀𝐁𝐎𝐔𝐓💞", callback_data="shasa_"),
         InlineKeyboardButton(
-            text="💖𝕾𝖚𝖕𝖕𝖔𝖗𝖙💖", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="💖𝐒𝐔𝐏𝐏𝐎𝐑𝐓💓", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="💝𝕳𝖊𝖑𝖕 & 𝕮𝖔𝖒𝖒𝖆𝖓𝖉𝖘💝", callback_data="help_back"),
+        InlineKeyboardButton(text="💝𝐇𝐄𝐋𝐏 & 𝐂𝐎𝐌𝐌𝐌𝐀𝐍𝐃𝐒💝", callback_data="help_back"),
     ],
 ]
 
-
+  
 HELP_STRINGS = """
-`𝕳𝖎.. 𝕴'𝖒` [𝕾𝖍𝖆𝖘𝖆❤️](https://telegra.ph/file/c4b69de63b6525efad6dd.jpg)
+`𝕳𝖎.. 𝕴'𝖒` [𝐋𝐈𝐙𝐙𝐀❤️](https://telegra.ph/file/f316ddb569d0625c2bf0b.jpg)
 `𝕴'𝖒 𝖆 𝕳𝖊𝖗𝖔𝖎𝖓𝖊 𝕱𝖔𝖗 𝕱𝖚𝖓 𝖆𝖓𝖉 𝖍𝖊𝖑𝖕 𝖆𝖉𝖒𝖎𝖓𝖘 𝖙𝖔 𝖒𝖆𝖓𝖆𝖌𝖊 𝖙𝖍𝖊𝖎𝖗 𝖌𝖗𝖔𝖚𝖕𝖘! 𝕳𝖆𝖛𝖊 𝖆 𝖑𝖔𝖔𝖐 𝖆𝖙 𝖙𝖍𝖊 𝖋𝖔𝖑𝖑𝖔𝖜𝖎𝖓𝖌 𝖋𝖔𝖗 𝖆𝖓 𝖎𝖉𝖊𝖆 𝖔𝖋 𝖘𝖔𝖒𝖊 𝖔𝖋 𝖙𝖍𝖊 𝖙𝖍𝖎𝖓𝖌𝖘 𝕴 𝖈𝖆𝖓 𝖍𝖊𝖑𝖕 𝖞𝖔𝖚 𝖜𝖎𝖙𝖍.`"""
 
 
-shasa_IMG = "https://telegra.ph/file/c4b69de63b6525efad6dd.jpg"
+shasa_IMG = "https://telegra.ph/file/f316ddb569d0625c2bf0b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @SimpleBoy787 \
+ You can support the project via [Paypal](#) or by contacting @Cutozki\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -358,8 +358,8 @@ def shasa_about_callback(update, context):
              ❍ 𝕴 𝖍𝖆𝖛𝖊 𝖆 𝖓𝖔𝖙𝖊 𝖐𝖊𝖊𝖕𝖎𝖓𝖌 𝖘𝖞𝖘𝖙𝖊𝖒, 𝖇𝖑𝖆𝖈𝖐𝖑𝖎𝖘𝖙𝖘, 𝖆𝖓𝖉 𝖊𝖛𝖊𝖓 𝖕𝖗𝖊𝖉𝖊𝖙𝖊𝖗𝖒𝖎𝖓𝖊𝖉 𝖗𝖊𝖕𝖑𝖎𝖊𝖘 𝖔𝖓 𝖈𝖊𝖗𝖙𝖆𝖎𝖓 𝖐𝖊𝖞𝖜𝖔𝖗𝖉𝖘.
              ❍ 𝕴 𝖈𝖍𝖊𝖈𝖐 𝖋𝖔𝖗 𝖆𝖉𝖒𝖎𝖓𝖘' 𝖕𝖊𝖗𝖒𝖎𝖘𝖘𝖎𝖔𝖓𝖘 𝖇𝖊𝖋𝖔𝖗𝖊 𝖊𝖝𝖊𝖈𝖚𝖙𝖎𝖓𝖌 𝖆𝖓𝖞 𝖈𝖔𝖒𝖒𝖆𝖓𝖉 𝖆𝖓𝖉 𝖒𝖔𝖗𝖊 𝖘𝖙𝖚𝖋𝖋𝖘
                _𝖘𝖍𝖆𝖘𝖆'𝖘 𝖑𝖎𝖈𝖊𝖓𝖘𝖊𝖉 𝖚𝖓𝖉𝖊𝖗 𝖙𝖍𝖊 𝕲𝕹𝖀 𝕲𝖊𝖓𝖊𝖗𝖆𝖑 𝕻𝖚𝖇𝖑𝖎𝖈 𝕷𝖎𝖈𝖊𝖓𝖘𝖊 𝖛3.0_
-               𝕳𝖊𝖗𝖊 𝖎𝖘 𝖙𝖍𝖊 [💾𝕽𝖊𝖕𝖔𝖘𝖎𝖙𝖔𝖗𝖞](https://github.com/MdNoor786/Shasabot-1).
-               𝕴𝖋 𝖞𝖔𝖚 𝖍𝖆𝖛𝖊 𝖆𝖓𝖞 𝖖𝖚𝖊𝖘𝖙𝖎𝖔𝖓 𝖆𝖇𝖔𝖚𝖙 𝖘𝖍𝖆𝖘𝖆, 𝖑𝖊𝖙 𝖚𝖘 𝖐𝖓𝖔𝖜 𝖆𝖙 [𝕾𝖚𝖕𝖕𝖔𝖗𝖙](https://t.me/MissShasa_Gbot).""",
+               𝕳𝖊𝖗𝖊 𝖎𝖘 𝖙𝖍𝖊 [💾𝕽𝖊𝖕𝖔𝖘𝖎𝖙𝖔𝖗𝖞](@Lizzasupport).
+               𝕴𝖋 𝖞𝖔𝖚 𝖍𝖆𝖛𝖊 𝖆𝖓𝖞 𝖖𝖚𝖊𝖘𝖙𝖎𝖔𝖓 𝖆𝖇𝖔𝖚𝖙 𝖘𝖍𝖆𝖘𝖆, 𝖑𝖊𝖙 𝖚𝖘 𝖐𝖓𝖔𝖜 𝖆𝖙 [𝕾𝖚𝖕𝖕𝖔𝖗𝖙](https://t.me/MissLizza_bot).""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -370,7 +370,7 @@ def shasa_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "shasa_back":
+    elif query.data == "Lizza_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -385,8 +385,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *shasa*
-                 \nHere is the [Source Code](https://github.com/MdNoor786/ShasaBot-1) .""",
+            text=""" Hi..🤗 I'm *Lizza*
+                 \nHere is the [Source Code](@Lizzasupport) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
